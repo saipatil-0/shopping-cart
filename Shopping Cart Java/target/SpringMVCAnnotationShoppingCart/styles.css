@@ -1,0 +1,145 @@
+html {
+}
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+
+    min-width:768px;
+    margin: 0px auto;
+    background: menu;
+    padding:5px 5px 5px 5px;
+    text-align:center;
+    
+}
+ 
+.page-title  {
+    font-size:400%;
+    text-align: center;
+    margin:5px 0px;
+   font-family: inherit;
+    font-weight: bolder;
+}
+.header-container {
+    text-align:left;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+    background: cadetblue;
+    color: white;
+}
+.header-container .header-bar  {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.header-container .header-bar  a  {
+    color: whitesmoke;
+    font-size: 20px;
+}
+ 
+.footer-container {
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 0px 0px 0px;
+    border-top: 2px solid #ccc;
+}
+.menu-container {
+    padding-top: 100px;
+    text-align: right;
+    margin: 10px 5px;
+}
+.menu-container a {
+    margin: 5px 5px 5px 5px;
+    color: #004d99;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+.site-name {
+    font-size:200%;
+    margin:10px 10px 10px 10px;
+    padding: 5px;
+}
+ 
+.container  {
+    margin: 5px 0px;
+}
+ 
+.demo-container, .login-container, .account-container {
+    padding: 5px;
+    border: 2px solid #ccc;
+    text-align:left;
+    margin:5px 0px;
+}
+ 
+.customer-info-container {
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 0px 5px;
+}
+.product-preview-container {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 320px;
+    display: inline-block;
+    text-align:left;
+    font-size:100%;
+}
+ 
+.product-preview-container input {
+    width:100px;
+}
+ 
+ 
+.product-image {
+    width: 250px;
+    height:200px;
+}
+ 
+ul {
+    list-style-type: none;
+    padding-left:5px;
+    margin:5px;
+}
+ 
+ 
+.navi-item {
+    margin: 10px 10px 10px 20px;
+}
+ 
+.button-update-sc {
+    color: red;
+    margin: 5px 5px 5px 20px;
+}
+ 
+.button-send-sc {
+    color: red;
+    margin: 5px 5px 5px 20px;
+}
+ 
+.error-message {
+    font-size: 90%;
+    color: red;
+    font-style: italic;
+}
+ 
+.price {
+    color: blue;
+    font-weight: bold;
+}
+ 
+.subtotal {
+    color: red;
+    font-weight: bold;
+}
+ 
+.total {
+    color: red;
+    font-weight: bold;
+    font-size: 120%;
+}
+ 
+table td {
+    padding: 5px;
+}
